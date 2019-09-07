@@ -5,6 +5,6 @@
 
 	<body>
 		<h1>Blog For CENG 317 - Lumi Monitor</h1>
-		<p>05/09/2019 - Repository Created</p>
+		<p>05/09/2019 - Repository Created - https://github.com/KyleV1999/LumiMonitor</p>
 	</body>
 </html>
