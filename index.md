@@ -14,7 +14,7 @@
 		This is the original proposal for our project. This outlines our original ideas for the project, project background and infromation about the sensors we plan to use
 		<a href="https://github.com/KyleV1999/LumiMonitor/blob/master/Documentation/ProposalContentKyleVodurisRev03.pdf"><u>Project Proposal Content</u>
 		<a href="https://github.com/KyleV1999/LumiMonitor/blob/master/Documentation/ProjectProposalKyleVodurisRev03.pdf"><u>Project Proposal</u></a>
-		</p>  
+		
 		
 		<h2>Constructed Project Plan and Schedule - 17/09/2019</h2>
 		<p>
@@ -33,5 +33,4 @@
 		  My group also came up with an individual budget for our project which can be found <a href="https://github.com/KyleV1999/LumiMonitor/blob/master/Documentation/Lumi%20Monitor%20Budget.pdf"><u>here</u></a>.
 		</p>
 		
-	</body>
-</html>
+
