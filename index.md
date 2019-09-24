@@ -9,6 +9,10 @@
 		<h2>Repository Created - 05/09/2019</h2>
 		<p><a href="https://github.com/KyleV1999/LumiMonitor">https://github.com/KyleV1999/LumiMonitor</a></p>
 		
+		<h2>Hardware Proposal - 10/09/2019</h2>
+		<p>This is the original proposal for our project. This outlines our original ideas for the project, project background and infromation about the sensors we plan to use<br>
+		<a href="https://github.com/KyleV1999/LumiMonitor/blob/master/Documentation/ProposalContentKyleVodurisRev03.pdf">Project Proposal Content<br>
+		<a href="https://github.com/KyleV1999/LumiMonitor/blob/master/Documentation/ProjectProposalKyleVodurisRev03.pdf">Project Proposal</a></p>  
 		<h2>Constructed Project Plan and Schedual - 17/09/2019</h2>
 		
 		<p> <a href="https://github.com/KyleV1999/LumiMonitor/blob/master/Documentation/Project%20Schedual.pdf">
