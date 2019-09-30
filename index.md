@@ -1,4 +1,4 @@
-
+<html>
 		<center><h1>Blog For CENG 317 - Lumi Monitor</h1></center>
 		
 		<h2>Repository Created - 05/09/2019</h2>
@@ -33,6 +33,8 @@
 		<p>Purchased <a href="https://bit.ly/2kKx8QV"><u>Grove PIR Motion Sensor</u></a> and <a href="https://amzn.to/2kMYDtb"><u>Raspberry Pi 3 B+ Motherboard</u></a></p>
 		<img src="Images/pipurchase.jpg"/>
 		<img src="Images/pirpurchase.jpg"/>
+		
+</html>
 			
 
 
