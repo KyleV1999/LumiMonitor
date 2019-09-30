@@ -34,7 +34,7 @@
 		<img src="Images/pipurchase.jpg"/>
 		<img src="Images/pirpurchase.jpg"/>
 		
-</html>
+<!---</html>-->
 			
 
 
