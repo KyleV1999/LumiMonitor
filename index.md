@@ -14,7 +14,7 @@
 		<h3>PCB</h3>
 		<img src="Images/LumiMonitor_MotionSensor_pcb.jpg" style="width:700px;float:left;"/>
 		
-		<p><a href"https://github.com/KyleV1999/LumiMonitor/blob/master/Electronics/LumiMonitor_MotionSensor.fzz">Fritzing File</a></p>
+		<p><a href="https://github.com/KyleV1999/LumiMonitor/blob/master/Electronics/LumiMonitor_MotionSensor.fzz">Fritzing File</a></p>
 		
 			
 	        <h2> Additonal Purchase & Recieve Products - 8/10/2019</h2>
