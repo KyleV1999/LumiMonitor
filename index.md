@@ -6,15 +6,15 @@
 		included in the list of parts; I couldn't find a PIR Motion Sensor Part with 4 Pins online either. Instead, for the                     diagrams I used the Grove Light Sensor. It has the exact same pin layout as the Motion Sensor using the same connector.                  </p>
 		
 		<h3>Breadboard</h3>
-		<img src="Images/LumiMonitor_MotionSensor_bb.jpg" style="float:left;"/>
+		<img src="Images/LumiMonitor_MotionSensor_bb.jpg" style="width:700px;float:left;"/>
 		
 		<h3>Schematic</h3>
-		<img src="Images/LumiMonitor_MotionSensor_schem.jpg" style="float:left;"/>
+		<img src="Images/LumiMonitor_MotionSensor_schem.jpg" style="width:700px;float:left;"/>
 		
 		<h3>PCB</h3>
-		<img src="Images/LumiMonitor_MotionSensor_pcb.jpg" style="float:left;"/>
+		<img src="Images/LumiMonitor_MotionSensor_pcb.jpg" style="width:700px;float:left;"/>
 		
-		<a href"https://github.com/KyleV1999/LumiMonitor/blob/master/Electronics/LumiMonitor_MotionSensor.fzz">Fritzing File</a>
+		<p><a href"https://github.com/KyleV1999/LumiMonitor/blob/master/Electronics/LumiMonitor_MotionSensor.fzz">Fritzing File</a></p>
 		
 			
 	        <h2> Additonal Purchase & Recieve Products - 8/10/2019</h2>
