@@ -7,17 +7,16 @@
 		
 		<h3>Breadboard</h3>
 		<img src="Images/LumiMonitor_MotionSensor_bb.jpg" style="width:700px;"/>
-		
+		<br>
 		<h3>Schematic</h3>
 		<img src="Images/LumiMonitor_MotionSensor_schem.jpg" style="width:700px;"/>
-		
+		<br>
 		<h3>PCB</h3>
 		<img src="Images/LumiMonitor_MotionSensor_pcb.jpg" style="width:700px;"/>
 		<img src="Images/LumiMonitor_MotionSensor_pcb2.jpg" style="width:700px;"/>
-		
-		<p><a href="https://github.com/KyleV1999/LumiMonitor/blob/master/Electronics/LumiMonitor_MotionSensor.fzz">Fritzing 			File1</a>
+	        <br>	
+		<p><a href="https://github.com/KyleV1999/LumiMonitor/blob/master/Electronics/LumiMonitor_MotionSensor.fzz">Fritzing 			File1</a><br>
 		<a href="https://github.com/KyleV1999/LumiMonitor/blob/master/Electronics/LumiMonitor_MotionSensor2.fzz">Fritzing 			File2</a>
-		
 		</p>
 		
 			
