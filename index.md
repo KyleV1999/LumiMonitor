@@ -1,9 +1,9 @@
 <html>
 		<center><h1>Blog For CENG 317 - Lumi Monitor</h1></center>
 	
-	        <h2>Breadboard and PCD Design - 15/10/2019</h2>
+	        <h2>Breadboard and PCB Design - 15/10/2019</h2>
 		<p>Designed the breadboad and PCB for the Grove PIR Motion Sensor. Fritzing did not have the Grove PIR Motion sensor
-		included in the list of parts; I couldn't find a PIR Motion Sensor Part with 4 Pins online either. Instead, for the diagrams I used the Grove Light Sensor. It has the exact same pin layout as the Motion Sensor using the same connector.</p>
+		included in the list of parts; I couldn't find a PIR Motion Sensor Part with 4 Pins online either. Instead, for the                     diagrams I used the Grove Light Sensor. It has the exact same pin layout as the Motion Sensor using the same connector.                  </p>
 		
 		<h3>Breadboard</h3>
 		<img src="Images/LumiMonitor_MotionSensor_bb.jpg" style="float:left;"/>
@@ -14,8 +14,10 @@
 		<h3>PCB</h3>
 		<img src="Images/LumiMonitor_MotionSensor_pcb.jpg" style="float:left;"/>
 		
+		<a href"https://github.com/KyleV1999/LumiMonitor/blob/master/Electronics/LumiMonitor_MotionSensor.fzz">Fritzing File</a>
+		
 			
-	        <h2 Additonal Purchase & Recieve Products - 8/10/2019</h2>
+	        <h2> Additonal Purchase & Recieve Products - 8/10/2019</h2>
 		<p>The items that I purchased below were delivered. I setup the Raspberry Pi with an operating system. in this case
 		Raspian with kernal 4.19, installed on my 32GB micro SD card. I also configured SSH and VNC viewr so I can connect and 			control the Pi remotely. I also forgot to purchase a socket for my mootion sensor so that it can connect to the PCB. I                   puchased 10 <a href ="https://bit.ly/32it9vh"><u>Seeedstudio Grove 4-pin Connectors</u></a></p>
 		
