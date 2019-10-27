@@ -26,7 +26,7 @@ to edit the breadboard view in a program called InkScape to represent the motion
 <p>The items that I purchased below were delivered. I setup the Raspberry Pi with an operating system. In this case
 Raspian with kernal 4.19, installed on my 32GB micro SD card. I also configured SSH and VNC viewer so I can connect and control the     Pi remotely. I also forgot to purchase a socket for my motion sensor so that it can connect to the PCB. I puchased 10 <a href           ="https://bit.ly/32it9vh"><u>Seeedstudio Grove 4-pin Connectors</u></a></p>
 
-<img src="Images/items_purchased.jpg/>
+<img src="Images/items_purchased.jpg"/>
 		
 <img src="https://www.robotshop.com/media/catalog/product/cache/image/1350x/9df78eab33525d08d6e5fb8d27136e95/s/e/seeedstudio-grove-4-pin-connector-1_1.jpg" style="height:400px;width:400px;"/><br>.
 
