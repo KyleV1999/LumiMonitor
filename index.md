@@ -8,8 +8,8 @@
 <img src="Images/breadboard1.jpg" width="600">
 <img src="Images/breadboard2.jpg" width="600">
 <img src="Images/breadboard3.jpg" width="600"> 
-<img src="Images/program1_woking.jpg" height="750" width="600">
-<img src="Images/program2_woking.jpg" height="750" width="600">
+<img src="Images/program1_working.jpg" height="750" width="600">
+<img src="Images/program2_working.jpg" height="750" width="600">
 <img src="Images/working_sensor.gif"width="600">
 
 <p>I also sent my gerber files to the prototype lab to get my PCB made. I got my PCB made twice since I made some minor adjustments to the wires on the board. Now that I've completed the breadboard milestone my project is now back on track with project schedule. In terms of the budget, I've had to add more costs. Like mentioned in the previous post, I had to buy sockets to connect my motion sensor to the PCB. I will also need to purchase a USB to ethernet adapter so that I can SSH into my Raspberry Pi from my laptop. I tried to save money on the budget by skipping out on this, since I thought that the monitors in the lab had an HDMI port to display the Pi. I will add the cost to the budget when I order it.</p>
