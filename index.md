@@ -2,7 +2,7 @@
 <center><h1>Blog For CENG 317 - Lumi Monitor</h1></center>
 	
 <h2>Breadboard Milestone - 30/10/2019</h2>
-<p>This week I put my breadboard design into fruition by wiring up my PIR motion sensor to my Raspberry Pi. The process of wiring went smoothly, however I had touble getting my sensor to work on the Raspberry Pi. I decided to write my test code out in Python. I chose to use Python due to its simplicity and compatiblity with the Pi. The problem was I have a lesser knowledge in Python so I had some trouble getting the program up and running, therefore putting the project a day behind. I was able to get two Python programs working to demonstrate the funtionality of my motion sensor. The first program I made checks each iteration of the loop to see if the output on the sensor is HIGH or LOW. The problem with this code was that the IDE I was using to compile the code had trouble keeping up with the output and did no display the results properly. When the code was ran though the terminal it worked fine. The second code slows this down so it only checks the sensor output every 0.1 seconds. The two programs can be found here:
+<p>This week I put my breadboard design into fruition by wiring up my PIR motion sensor to my Raspberry Pi. The process of wiring went smoothly, however I had trouble getting my sensor to work on the Raspberry Pi. I decided to write my test code out in Python. I chose to use Python due to its simplicity and compatiblity with the Pi. The problem was, I have a lesser knowledge in Python so I had some trouble getting the program up and running, therefore putting the project a day behind. I was able to get two Python programs working to demonstrate the funtionality of my motion sensor. The first program I made checks each iteration of the loop to see if the output on the sensor is HIGH or LOW. The problem with this code was that the IDE I was using to compile the code had trouble keeping up with the output and did no display the results properly. When the code was ran though the terminal it worked fine. The second code slows this down so it only checks the sensor output every 0.1 seconds. The two programs can be found here:
 <a href="Software/motion.py">motion.py</a>, <a href="Software/motion2.py">motion2.py</a>.</p>
 <br>
 <img src="Images/breadboard1.jpg" width="600">
@@ -10,7 +10,7 @@
 <img src="Images/breadboard3.jpg" width="600"> 
 <img src="Images/program1_working.jpg" height="750" width="600">
 <img src="Images/program2_working.jpg" height="750" width="600">
-<img src="Images/working_sensor.gif"width="600">
+<img src="Images/working_sensor.gif" width="600">
 
 <p>I also sent my gerber files to the prototype lab to get my PCB made. I got my PCB made twice since I made some minor adjustments to the wires on the board. Now that I've completed the breadboard milestone my project is now back on track with project schedule. In terms of the budget, I've had to add more costs. Like mentioned in the previous post, I had to buy sockets to connect my motion sensor to the PCB. I will also need to purchase a USB to ethernet adapter so that I can SSH into my Raspberry Pi from my laptop. I tried to save money on the budget by skipping out on this, since I thought that the monitors in the lab had an HDMI port to display the Pi. I will add the cost to the budget when I order it.</p>
 <br>
