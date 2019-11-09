@@ -1,6 +1,14 @@
 <html>
 <center><h1>Blog For CENG 317 - Lumi Monitor</h1></center>
 	
+<h2>PCB Soldered - 09/11/2019</h2>
+<p>This week I soldered sockets onto my PCB board so that I can connect my sensor to it and so that the board can connect to the Raspberry Pi. I also solderd wires into the through-holes to connect the top side of the board to the bottom. During the process of soldering I ran into a few issues. The first issue I ran into was I mistakenly soldered both of the sockets to the wrong side of the PCB. I used the desoldering pump to re-solder my sockets corrects. However when I went to check the board by using a multi-meter the resistance showed overloaded, meaning something is wrong with the connections on the board. The connections seemed correct and soldered properly with no shorts; I believe I may have damaged my board during the proccess of desoldering and resoldering. I decided to print another board and tried to solder again. The process on soldering the second board went smoothly and the multi-meter showed proper results. In terms of my budget, I ordered and recieved my USB to Ethernet Adapter from Amazon so that I can easily SSH into my Pi. The cost has been updated on my budget. The Female Header Connector was provied from the prototype lab and cut down fit the specifications of the PCB. My project became slightly off track when I had to print and solder another PCB board, but now that this step is complete, the project is on schedule.</p>  
+<br>
+<img src="Images/pcb_front_soldered.jpg" width="600">
+<img src="Images/pcb_back_soldered.jpg" width="600">
+<img src="Images/pcb_soldered_sensor.jpg" width="600">
+						  
+	
 <h2>Breadboard Milestone - 30/10/2019</h2>
 <p>This week I put my breadboard design into fruition by wiring up my PIR motion sensor to my Raspberry Pi. The process of wiring went smoothly, however I had trouble getting my sensor to work on the Raspberry Pi. I decided to write my test code out in Python. I chose to use Python due to its simplicity and compatiblity with the Pi. The problem was, I have a lesser knowledge in Python so I had some trouble getting the program up and running, therefore putting the project a day behind. I was able to get two Python programs working to demonstrate the funtionality of my motion sensor. The first program I made checks each iteration of the loop to see if the output on the sensor is HIGH or LOW. The problem with this code was that the IDE I was using to compile the code had trouble keeping up with the output and did no display the results properly. When the code was ran though the terminal it worked fine. The second code slows this down so it only checks the sensor output every 0.1 seconds. The two programs can be found here:
 <a href="Software/motion.py">motion.py</a>, <a href="Software/motion2.py">motion2.py</a>.</p>
