@@ -1,8 +1,15 @@
 <html>
 <center><h1>Blog For CENG 317 - Lumi Monitor</h1></center>
+
+<h2>PCB Powerup - 12/11/2019</h2>
+<p>During the lab, I powered up my PCB for the first time to see if it will work. I plugged the sockets from the PCB onto the pins on the Raspberry Pi and plugged my motion sensor onto the PCB. I ran the test code on the Pi and it detected when there was motion or not correctly.The project is on track in terms of time and there are no further additions to the budget. I am now working on creating an enclosure for the Pi,sensor and PCB.</p>
+<br>
+<img src="Images/powerup_connections.jpg" width="600">
+<img src="Images/powerup_code_working.jpg" width="600">
+
 	
 <h2>PCB Soldered - 09/11/2019</h2>
-<p>This week I soldered sockets onto my PCB board so that I can connect my sensor to it and so that the board can connect to the Raspberry Pi. I also solderd wires into the through-holes to connect the top side of the board to the bottom. During the process of soldering I ran into a few issues. The first issue I ran into was I mistakenly soldered both of the sockets to the wrong side of the PCB. I used the desoldering pump to re-solder my sockets correctly. However when I went to check the board by using a multi-meter the resistance showed overloaded, meaning something is wrong with the connections on the board. The connections seemed correct and soldered properly with no shorts; I believe I may have damaged my board during the proccess of desoldering and resoldering. I decided to print another board and tried to solder again. The process on soldering the second board went smoothly and the multi-meter showed proper results. In terms of my budget, I ordered and recieved my USB to Ethernet Adapter from Amazon so that I can easily SSH into my Pi. The cost has been updated on my budget. The Female Header Connector was provied from the prototype lab and cut down fit the specifications of the PCB. My project became slightly off track when I had to print and solder another PCB board, but now that this step is complete, the project is on schedule.</p>  
+<p>This week I soldered sockets onto my PCB board so that I can connect my sensor to it and so that the board can connect to the Raspberry Pi. I also solderd wires into the through-holes to connect the top side of the board to the bottom. During the process of soldering I ran into a few issues. The first issue I ran into was I mistakenly soldered both of the sockets to the wrong side of the PCB. I used the desoldering pump to re-solder my sockets correctly. However when I went to check the board by using a multi-meter the resistance showed overloaded, meaning something is wrong with the connections on the board. The connections seemed correct and soldered properly with no shorts; I believe I may have damaged my board during the proccess of desoldering and resoldering. I decided to print another board and tried to solder again. The process on soldering the second board went smoothly and the multi-meter showed proper results. In terms of my budget, I ordered and recieved my USB to Ethernet Adapter from Amazon so that I can easily SSH into my Pi. The cost has been updated on my budget. The Female Header Connector was provied from the prototype lab and cut down fit the specifications of the PCB. My project became slightly off track when I had to print and solder another PCB, but now that this step is complete, the project is on schedule.</p>  
 <br>
 <img src="Images/pcb_front_soldered.jpg" width="600">
 <img src="Images/pcb_back_soldered.jpg" width="600">
@@ -24,11 +31,6 @@
 <br>
 <img src="Images/pcb_front.jpg" height="600" width="600">
 <img src="Images/pcb_back.jpg" height="600" width="600">
-
-
-
-
-
 	
 <h2>Breadboard and PCB Design - 15/10/2019</h2>
 <p>Designed the breadboad and PCB for the Grove PIR Motion Sensor. Fritzing did not have the Grove PIR Motion sensor
