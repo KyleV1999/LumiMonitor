@@ -8,7 +8,7 @@
 
 ## Introduction
 
-This is the build instructions for building the PIR Motion sensor as part of the LumiMonitor project. The PIR Motion Sensor will detect motion within 3 meters of the sensor. This will be used in the final project to intiate data collection. The photo below depicts the final product:
+This is the build instructions for building the PIR Motion sensor as part of the LumiMonitor project. The PIR (Passive Infared) Motion Sensor will detect motion within 3 meters of the sensor. These instuction will show you how to design and build the breadboard and PCB circuits to intigrate the sensor with a Broadcom Development Platform (Raspberry Pi 3B+). I will also provide a list of materials and links to where you can buy them, as well as a Corel Draw file so that you can laser cut a case out of clear acrylic. These instutions take into account that you will have access to equipment such as a soldering iron, laser cutter, wire strippers, etc. The PIR Motion Sensor will be used in the final Lumi Monitor project to intiate hands-free data collection. The photo below depicts the final product:
 
 ![Final Product](Images/box_sensormount.jpg)
 
@@ -20,6 +20,8 @@ Before you begin some skills you will need duing the build of this project inclu
 * Soldering
 
 ## Budget
+Thse are the parts needed to complete the project. Displayed below are links and price breakdown for each component.
+
 **Parts for Lumi Monitor**
 
 | Part   | Source  | Part Number | # of Units | Price Per Unit (CAD)  | Taxes & Shipping (CAD) | Subtotal  | Link |
@@ -38,6 +40,38 @@ Before you begin some skills you will need duing the build of this project inclu
 | Lead Free Solder | Amazon | 2-CA-X | 1 | $15.99 | $4.32 | $20.31 | https://amzn.to/37JXLJj |
 | Total Cost | $232.13 |
 | Total Tax & Shipping | $58.25 | 
+
+**Below are images for major components used:**
+
+Grove PIR Motion Sensor - Sensor
+
+![Motion Sensor](Images/grovesensor.jpg)
+
+Broadcom Development Platform / Raspberry Pi 3B+
+
+![Raspberry Pi 3B+](Images/raspberrypi3b+.jpg)
+
+Grove Headers - Used to connect sensor to PCB
+
+![Headers](https://www.robotshop.com/media/catalog/product/cache/image/1350x/9df78eab33525d08d6e5fb8d27136e95/s/e/seeedstudio-grove-4-pin-connector-1_1.jpg)
+
+AmazonBasics USB 3.0 to Ethernet Adapter - Used for SSH and remote desktop connection with development platform
+
+![USB To Ethernet](https://images-na.ssl-images-amazon.com/images/I/71NMeVTevGL._SX425_.jpg)
+
+## Time Commitment
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
