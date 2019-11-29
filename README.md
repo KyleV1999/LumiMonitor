@@ -5,6 +5,11 @@
 
 [Budget](https://github.com/KyleV1999/LumiMonitor#Budget)
 
+[Time Commitment](https://github.com/KyleV1999/LumiMonitor#Time%20Comitment)
+
+[Setting Up Your Platform](https://github.com/KyleV1999/LumiMonitor#Setting%20Up%20Your%20Development%20Platform)
+
+
 
 ## Introduction
 
@@ -60,6 +65,32 @@ AmazonBasics USB 3.0 to Ethernet Adapter - Used for SSH and remote desktop conne
 ![USB To Ethernet](https://images-na.ssl-images-amazon.com/images/I/71NMeVTevGL._SX425_.jpg)
 
 ## Time Commitment
+
+When I put together this project, I did it in a period of 14 weeks. The schedual that I followed to complete the project is shown below. However, this project can most likely be done in the matter of a weekend, granted that all the parts needed have been delivered, you have your PCB made and that you have access to all the required equipment needed to complete the project.
+
+![Schedual](Images/Lumi_Monitor_Schedual_3.JPG)
+
+**Estimate Time:**
+
+* Setting up your development platform - 45 Minutes
+* Breadboard Assembly & Testing - 25 Minutes
+* PCB Soldering - 30 Minutes
+* PCB Powerup - 5 Minutes
+* Laser Cut Case - 20 Minutes
+* Assemble Case w/ Development Platform & Sensor - 25 Minutes
+* Final Testing & Troubleshooting - 20 Minutes
+
+**Total Estimated Time: 170 Minutes or 2 Hours and 50 Minutes**
+
+## Setting Up Your Development Platform
+The very first step of the project would be to setup your Raspberry Pi 3B+ with the latest kernal of Raspian. If you are new to Raspberry Pi's, I would reccommend doing this through NOOBS (New Out Of the Box Software) operating system installer. I've made this tutorial video on how to do this: [How To Install NOOBS Onto A Raspberry Pi (3B+/4)](https://youtu.be/TlQxaEdyBgM).
+
+
+
+
+
+
+
 
 
 
