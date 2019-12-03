@@ -85,6 +85,43 @@ When I put together this project, I did it in a period of 14 weeks. The schedual
 ## Setting Up Your Development Platform
 The very first step of the project would be to setup your Raspberry Pi 3B+ with the latest kernal of Raspian. If you are new to Raspberry Pi's, I would reccommend doing this through NOOBS (New Out Of the Box Software) operating system installer. I've made this tutorial video on how to do this: [How To Install NOOBS Onto A Raspberry Pi (3B+/4)](https://youtu.be/TlQxaEdyBgM).
 
+Once your Raspberry Pi has been configured with an operating system, remote desktop and SSH should be configured so that you can connect to the Pi through USB to Ethernet rather than displaying the Pi on a external display through an HDMI cable. 
+
+To setup SSH, begin by opening the terminal by pressing CTRL+ALT+T on the keyboard. Next, use the command ```sudo raspi-config```. An interface similar to as show below should appear. Using the up and down arrow keys select interfacing options and press ENTER.
+
+![SSH1](Images/SSH1.JPG)
+
+Next, use the up and down arrow keys to select SSH and hit enter.
+
+![SSH2](Images/SSH2.JPG)
+
+Finally, using the right and left arrow keys select <Yes>. SSH has now been successfully enabled.
+
+![SSH3](Images/SSH3.JPG)
+![SSH4](Images/SSH4.JPG)
+
+Now, plug in one end of the ethernet cable into the Raspberry Pi and the other end into the adapter. Plug the USB end of the adapter into a PC. Next use the ```ifconfig``` command to retrieve the IPv4 address of the Pi's ethernet interface. In my case it is 169.254.123.117.
+
+![IPV4](Images/ifconfig.JPG)
+
+Now use and SSH client like [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html). Enter the IPv4 address then press open. You should be prompted with a login. Enter your Pi's username and password. Finally, you should be able to control the terminal of your Raspberry Pi through SSH.
+
+![PuTTY1](Images/PuTTY1.JPG)
+![PuTTY2](Images/PuTTY2.JPG)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
