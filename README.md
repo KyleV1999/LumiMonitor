@@ -85,6 +85,8 @@ When I put together this project, I did it in a period of 14 weeks. The schedual
 ## Setting Up Your Development Platform
 The very first step of the project would be to setup your Raspberry Pi 3B+ with the latest kernal of Raspian. If you are new to Raspberry Pi's, I would reccommend doing this through NOOBS (New Out Of the Box Software) operating system installer. I've made this tutorial video on how to do this: [How To Install NOOBS Onto A Raspberry Pi (3B+/4)](https://youtu.be/TlQxaEdyBgM).
 
+### Setting Up SSH
+
 Once your Raspberry Pi has been configured with an operating system, remote desktop and SSH should be configured so that you can connect to the Pi through USB to Ethernet rather than displaying the Pi on a external display through an HDMI cable. 
 
 To setup SSH, begin by opening the terminal by pressing CTRL+ALT+T on the keyboard. Next, use the command ```sudo raspi-config```. An interface similar to as show below should appear. Using the up and down arrow keys select interfacing options and press ENTER.
@@ -108,6 +110,10 @@ Now use and SSH client like [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham
 
 ![PuTTY1](Images/PuTTY1.JPG)
 ![PuTTY2](Images/PuTTY2.JPG)
+
+### Setting Up Remote Desktop
+
+
 
 
 
