@@ -113,6 +113,11 @@ Now use and SSH client like [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham
 
 ### Setting Up Remote Desktop
 
+## Mechanical Assembly
+Now that your development platform has been setup, you should have your PCB made. Here are two fritzing file. 
+
+Before you start soldering it would be a good idea to test out that your components and development platform are functioning correctly by building the circuit on a breadboard. At this point you should also have your PCB made.
+
 
 
 
