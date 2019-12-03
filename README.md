@@ -5,9 +5,9 @@
 
 [Budget](https://github.com/KyleV1999/LumiMonitor#Budget)
 
-[Time Commitment](https://github.com/KyleV1999/LumiMonitor#Time%20Comitment)
+[Time Commitment](https://github.com/KyleV1999/LumiMonitor#Time-Comitment)
 
-[Setting Up Your Platform](https://github.com/KyleV1999/LumiMonitor#Setting%20Up%20Your%20Development%20Platform)
+[Setting Up Your Platform](https://github.com/KyleV1999/LumiMonitor#Setting-Up-Your-Development-Platform)
 
 
 
@@ -114,9 +114,17 @@ Now use and SSH client like [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham
 ### Setting Up Remote Desktop
 
 ## Mechanical Assembly
-Now that your development platform has been setup, you should have your PCB made. Here are two fritzing file. 
+Now that your development platform has been setup, you should have your PCB made. Provided below are two fritzing file:
 
-Before you start soldering it would be a good idea to test out that your components and development platform are functioning correctly by building the circuit on a breadboard. At this point you should also have your PCB made.
+[Fritzing File With Development Platform](Electronics/LumiMonitor_MotionSensor.fzz)
+
+[Fritzing File With Headers](LumiMonitor_MotionSensor2.fzz)
+
+"Fritzing File With Development Platform" is the breadboard pictorial, schematic diagaram and PCB diagram that describes the connection between the sensor and the development platform. "Fritzing File With Headers" shows the connection with the header. Use this file to generate a Gerber file to be used to make your PCB.
+
+Before you start soldering the PCB, it would be a good idea to test out that your components and development platform are functioning correctly by building the circuit on a breadboard.
+
+
 
 
 
