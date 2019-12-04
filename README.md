@@ -114,15 +114,112 @@ Now use and SSH client like [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham
 ### Setting Up Remote Desktop
 
 ## Mechanical Assembly
-Now that your development platform has been setup, you should have your PCB made. Provided below are two fritzing file:
+Now that your development platform has been setup, you should have your PCB made. Provided below are two fritzing files:
 
 [Fritzing File With Development Platform](Electronics/LumiMonitor_MotionSensor.fzz)
 
 [Fritzing File With Headers](LumiMonitor_MotionSensor2.fzz)
 
-"Fritzing File With Development Platform" is the breadboard pictorial, schematic diagaram and PCB diagram that describes the connection between the sensor and the development platform. "Fritzing File With Headers" shows the connection with the header. Use this file to generate a Gerber file to be used to make your PCB.
+[Fritzing File With Development Platform](Electronics/LumiMonitor_MotionSensor.fzz) is the breadboard pictorial, schematic diagaram and PCB diagram that describes the connection between the sensor and the development platform. [Fritzing File With Headers](LumiMonitor_MotionSensor2.fzz) shows the connections with the header. Use this file to generate a Gerber file which is to be used to make your PCB.
 
-Before you start soldering the PCB, it would be a good idea to test out that your components and development platform are functioning correctly by building the circuit on a breadboard.
+Before you start soldering the PCB, it would be a good idea to test out that your components and development platform are functioning correctly by building the circuit on a breadboard. Below is and image of the breadboard pictorial and schematic diagram of the circuit.
+
+![Breadboard](Images/LumiMonitor_MotionSensor_bb.jpg)
+
+![Schematic](Images/LumiMonitor_MotionSensor_schem.jpg)
+
+One thing to keep in mind when breadboarding is that the pins on socket for the motion sensor are too close together to fit on the breadboard. To get around this, stick wires directly into the header of the sensor's wire, then place each wire individually onto the breadboard. 
+
+* Pin 2 (5V) of the Raspberry Pi should be connected to the positive side of the breadboard.
+* Pin 6 (GND) of the Raspberry Pi should be connected to the negative side of the breadboard.
+* The red (VCC) wire from the motion sensor should be connected to the positive side of the breadboard.
+* The black (GND) wire from the motion sensor should be connected to the negativeside of the breadboard.
+* The yellow (D1) wire from the motion sensor should be connected to breadboard.
+* Pin 12 (BCM 18) of the Raspberry Pi should be connected to the D1 from the sensor on the breadboard.
+
+[pinout.xyz](https://pinout.xyz/) is a good reference for the Raspberry Pi's pin layout. When you finish breadboarding, it should look something like the image below.
+
+![Breadboard](Images/breadboard1.jpg)
+
+Now test to see if the motion sensor is working. [Upload this code to your Pi](Software/motion.py). This is a Python script which will detect HIGH (if motion is detected) and LOW (if no motion is detected). To run the code, open the terminal and make sure that you are in the same directory as your code. Use the command ```python motion.py``` to run the script. If motion is detected, "Motion detected" should be printed out on the screen. If no motion is detected then "No motion detected" is printed. When the sensor detects motion it will stay in a HIGH state for 1 second.
+
+## PCB Soldering
+
+If this is your first time soldering, I would recommend that you watch this tutorial before you begin: [Beginner how to Solder](https://www.youtube.com/watch?v=oqV2xU1fee8). Below is a PCB Diagram from fitzing along with and image of the PCB before anything is soldered.
+
+![PCB View](Images/LumiMonitor_MotionSensor_pcb2.jpg)
+
+Front
+
+![PCB Front](Images/pcb_front.jpg)
+
+Back
+
+![PCB Back](Images/pcb_back.jpg)
+
+1. The first step in soldering the PCB would be to solder the female header. For this project you only need three sockets to connect to the Pi. Before soldering cut the longer header into three sockets with an exactoknife. The pins of the header should be soldered facing the front of the PCB.
+
+1. Next, Solder the Grove socket to the PCB. The pins of the socket should be facing the bottom on the PCB.
+
+1. Finally, you will need to solder the via's / through holes to connect the front side of the board to the back. This can be done by stripping a wire and applying solder to both sides of the hole. 
+
+An example of the final product is shown below:
+
+Front
+
+![pcb_front_soldered](Images/pcb_front_soldered.jpg)
+
+Back
+
+![pcb back soldered](Images/pcb_back_soldered.jpg)
+
+
+With Sensor Connected
+
+![pcb_front_soldered](Images/pcb_soldered_sensor.jpg)
+
+## Case
+
+Here is a link to the [Corel Draw](Mechanical/KylePi2CaseX6.cdr) file that will be used to lase cut the case. This is a modified design from which the original design can be found [here](https://github.com/diy-electronics/raspberrypi-b-plus-case).
+
+Two slits were made, which is used to slide in the PCB and sensor to keep them in place. A window was also placed a the top to make it easier for the sensor to detect motion.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
