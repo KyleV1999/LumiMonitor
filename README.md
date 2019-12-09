@@ -1,14 +1,23 @@
 # PIR Motion Sensor Build Instructions for the LumiMonitor
 
 ## Table of Contents
-[Introduction](https://github.com/KyleV1999/LumiMonitor#Introduction)
+* [Introduction](https://github.com/KyleV1999/LumiMonitor#Introduction)
 
-[Budget](https://github.com/KyleV1999/LumiMonitor#Budget)
+* [Budget](https://github.com/KyleV1999/LumiMonitor#Budget)
 
-[Time Commitment](https://github.com/KyleV1999/LumiMonitor#Time-Comitment)
+* [Time Commitment](https://github.com/KyleV1999/LumiMonitor#Time-Comitment)
 
-[Setting Up Your Platform](https://github.com/KyleV1999/LumiMonitor#Setting-Up-Your-Development-Platform)
+* [Setting Up Your Platform](https://github.com/KyleV1999/LumiMonitor#Setting-Up-Your-Development-Platform)
 
+* [Mechanical Assembly](https://github.com/KyleV1999/LumiMonitor#Mechanical-Assembly)
+
+* [PCB Soldering](https://github.com/KyleV1999/LumiMonitor#PCB-Soldering)
+
+* [Case](https://github.com/KyleV1999/LumiMonitor#Case)
+
+* [Power Up](https://github.com/KyleV1999/LumiMonitor#Power-Up)
+
+* [Production Testing](https://github.com/KyleV1999/LumiMonitor#Production-Testing)
 
 
 ## Introduction
@@ -46,23 +55,10 @@ Thse are the parts needed to complete the project. Displayed below are links and
 | Total Cost | $232.13 |
 | Total Tax & Shipping | $58.25 | 
 
-**Below are images for major components used:**
+**Below is an image that contains all the major parts for the project; The Grove PIR Motion Sensor, Raspberry Pi 3B+ and Grove Sockets** 
 
-Grove PIR Motion Sensor - Sensor
+![Items purchased](items_purchased.jpg)
 
-![Motion Sensor](Images/grovesensor.jpg)
-
-Broadcom Development Platform / Raspberry Pi 3B+
-
-![Raspberry Pi 3B+](Images/raspberrypi3b+.jpg)
-
-Grove Headers - Used to connect sensor to PCB
-
-![Headers](https://www.robotshop.com/media/catalog/product/cache/image/1350x/9df78eab33525d08d6e5fb8d27136e95/s/e/seeedstudio-grove-4-pin-connector-1_1.jpg)
-
-AmazonBasics USB 3.0 to Ethernet Adapter - Used for SSH and remote desktop connection with development platform
-
-![USB To Ethernet](https://images-na.ssl-images-amazon.com/images/I/71NMeVTevGL._SX425_.jpg)
 
 ## Time Commitment
 
@@ -112,6 +108,13 @@ Now use and SSH client like [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham
 ![PuTTY2](Images/PuTTY2.JPG)
 
 ### Setting Up Remote Desktop
+To enable remote desktop to connect and control the Raspberry Pi with a graphical user interface, open up the terminal on the Pi and enter the following commands:
+
+```sudo apt-get install tightvncserver```
+
+```sudo apt-get install xrdp```
+
+After that make sure that your Raspberry Pi is connected to a PC with the ethernet cable and USB to ethernet adapter. Now open "Remote Desktop" on the PC can put in the IPv4 address found earlier and click connect. Enter your Pi's login information and finally, you should be in the remote desktop environment.
 
 ## Mechanical Assembly
 Now that your development platform has been setup, you should have your PCB made. Provided below are two fritzing files:
@@ -183,6 +186,18 @@ With Sensor Connected
 Here is a link to the [Corel Draw](Mechanical/KylePi2CaseX6.cdr) file that will be used to lase cut the case. This is a modified design from which the original design can be found [here](https://github.com/diy-electronics/raspberrypi-b-plus-case).
 
 Two slits were made, which is used to slide in the PCB and sensor to keep them in place. A window was also placed a the top to make it easier for the sensor to detect motion.
+
+## Power Up
+
+Before you enclose your PCB and sensor into the case, It would be a good idea to power it up to see if everything was successful. It is easier to do this outside of the case to make adjustments if needed. Plug the headers from the PCB intro their correct pins on the Raspberry Pi and and plug the sensor into it's socket. Power up the Raspberry Pi and connect to it via SSH. Run the same code from before with the command ```python motion.py```. If everything is working correctly then "Motion Detected" will be displayed when motion is detected. *Warning do not leave the powered up project unattended just in case something goes wrong!.* Finally, enclose you project in the case.
+
+## Production Testing
+When testing in a production environment, a PCB should be made for testing the sensor. This is because the dedicated socket for my sensor will not fit on a breadboard and it's simpiler and quicker to just plug the sensor into the socket to test it. Also a dedicated Raspbarry Pi with the all the software installed should be on hand. This is so any PCB or sensor can be swiftly connected, and tested in a matter of a few minutes.   
+
+
+
+
+
 
 
 
