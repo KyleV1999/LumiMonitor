@@ -1,6 +1,9 @@
 <html>
 <center><h1>Blog For CENG 317 - Lumi Monitor</h1></center>
 	
+<h2>Build Instructions - 10/12/2019</h2>
+<p>Build instuctions for project are complete. <a href="https://github.com/KyleV1999/LumiMonitor/blob/master/README.md">Can be viewed here.</a></p>
+	
 <h2>Presentation - 25/11/2019</h2>
 <p>The final presentation was due this week. <a href="Documentation/Lumi Monitor – PIR Motion Sensor.pptx">Here is a link to the slides from my repository.</a></p>
 	
