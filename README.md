@@ -188,11 +188,16 @@ An example of the final product is shown below:
 
 Here is a link to the [Corel Draw](Mechanical/KylePi2CaseX6.cdr) file that will be used to lase cut the case. This is a modified design from which the original design can be found [here](https://github.com/diy-electronics/raspberrypi-b-plus-case).
 
-Two slits were made, which is used to slide in the PCB and sensor to keep them in place. A window was also placed a the top to make it easier for the sensor to detect motion.
+Two slits were made, which is used to slide in the PCB and sensor to keep them in place. A window was also placed a the top to make it easier for the sensor to detect motion. There are screw holes at the bottom of the case to keep the development platform in place and all I/O are accessable.
+
+<img src="Images/box_top_cropped.jpg" width="800" height="600" align="center">
+
 
 ## Power Up
 
-Before you enclose your PCB and sensor into the case, It would be a good idea to power it up to see if everything was successful. It is easier to do this outside of the case to make adjustments if needed. Plug the headers from the PCB intro their correct pins on the Raspberry Pi and and plug the sensor into it's socket. Power up the Raspberry Pi and connect to it via SSH. Run the same code from before with the command ```python motion.py```. If everything is working correctly then "Motion Detected" will be displayed when motion is detected. *Warning do not leave the powered up project unattended just in case something goes wrong!.* Finally, enclose you project in the case.
+Before you enclose your PCB and sensor into the case, It would be a good idea to power it up to see if everything was successful. It is easier to do this outside of the case to make adjustments if needed. Plug the headers from the PCB intro their correct pins on the Raspberry Pi and and plug the sensor into it's socket. Power up the Raspberry Pi and connect to it via SSH. Run the same code from before with the command ```python motion.py```. If everything is working correctly then "Motion Detected" will be displayed when motion is detected. **Warning do not leave the powered up project unattended just in case something goes wrong!.** Finally, Once everything has been test and is working, enclose you project in the case.
+
+
 
 ## Production Testing
 When testing in a production environment, a PCB should be made for testing the sensor. This is because the dedicated socket for my sensor will not fit on a breadboard and it's simpiler and quicker to just plug the sensor into the socket to test it. Also a dedicated Raspbarry Pi with the all the software installed should be on hand. This is so any PCB or sensor can be swiftly connected, and tested in a matter of a few minutes.   
