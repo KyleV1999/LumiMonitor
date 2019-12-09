@@ -3,7 +3,7 @@
 ## Table of Contents
 * [Introduction](https://github.com/KyleV1999/LumiMonitor#Introduction)
 * [Budget](https://github.com/KyleV1999/LumiMonitor#Budget)
-* [Time Commitment](https://github.com/KyleV1999/LumiMonitor#TTime-Commitment)
+* [Time Commitment](https://github.com/KyleV1999/LumiMonitor#Time-Commitment)
 * [Setting Up Your Platform](https://github.com/KyleV1999/LumiMonitor#Setting-Up-Your-Development-Platform)
 * [Mechanical Assembly](https://github.com/KyleV1999/LumiMonitor#Mechanical-Assembly)
 * [PCB Soldering](https://github.com/KyleV1999/LumiMonitor#PCB-Soldering)
