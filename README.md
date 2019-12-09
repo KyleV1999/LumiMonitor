@@ -2,21 +2,13 @@
 
 ## Table of Contents
 * [Introduction](https://github.com/KyleV1999/LumiMonitor#Introduction)
-
 * [Budget](https://github.com/KyleV1999/LumiMonitor#Budget)
-
 * [Time Commitment](https://github.com/KyleV1999/LumiMonitor#Time-Comitment)
-
 * [Setting Up Your Platform](https://github.com/KyleV1999/LumiMonitor#Setting-Up-Your-Development-Platform)
-
 * [Mechanical Assembly](https://github.com/KyleV1999/LumiMonitor#Mechanical-Assembly)
-
 * [PCB Soldering](https://github.com/KyleV1999/LumiMonitor#PCB-Soldering)
-
 * [Case](https://github.com/KyleV1999/LumiMonitor#Case)
-
 * [Power Up](https://github.com/KyleV1999/LumiMonitor#Power-Up)
-
 * [Production Testing](https://github.com/KyleV1999/LumiMonitor#Production-Testing)
 
 
@@ -120,6 +112,13 @@ To enable remote desktop to connect and control the Raspberry Pi with a graphica
 
 After that make sure that your Raspberry Pi is connected to a PC with the ethernet cable and USB to ethernet adapter. Now open "Remote Desktop" on the PC can put in the IPv4 address found earlier and click connect. Enter your Pi's login information and finally, you should be in the remote desktop environment.
 
+<img src="Images/RD1.PNG" align="center">
+
+<img src="Images/RD2.PNG" width="720" height="400" align="center">
+
+<img src="Images/RD3.PNG" width="720" height="500" align="center">
+
+
 ## Mechanical Assembly
 Now that your development platform has been setup, you should have your PCB made. Provided below are two fritzing files:
 
@@ -133,7 +132,7 @@ Before you start soldering the PCB, it would be a good idea to test out that you
 
 ![Breadboard](Images/LumiMonitor_MotionSensor_bb.jpg)
 
-![Schematic](Images/LumiMonitor_MotionSensor_schem.jpg)
+<img src="Images/LumiMonitor_MotionSensor_schem.jpg" width="720" height="500" align="center">
 
 One thing to keep in mind when breadboarding is that the pins on socket for the motion sensor are too close together to fit on the breadboard. To get around this, stick wires directly into the header of the sensor's wire, then place each wire individually onto the breadboard. 
 
@@ -154,15 +153,15 @@ Now test to see if the motion sensor is working. [Upload this code to your Pi](S
 
 If this is your first time soldering, I would recommend that you watch this tutorial before you begin: [Beginner how to Solder](https://www.youtube.com/watch?v=oqV2xU1fee8). Below is a PCB Diagram from fitzing along with and image of the PCB before anything is soldered.
 
-![PCB View](Images/LumiMonitor_MotionSensor_pcb2.jpg)
+<img src="Images/LumiMonitor_MotionSensor_pcb2.jpg" align="center">
 
-Front
+**Front of PCB**
 
-![PCB Front](Images/pcb_front.jpg)
+<img src="Images/pcb_front_cropped.jpg" width="720" height="480" align="center">
 
-Back
+**Back of PCB**
 
-![PCB Back](Images/pcb_back.jpg)
+<img src="Images/pcb_back_cropped.jpg" width="720" height="480" align="center">
 
 1. The first step in soldering the PCB would be to solder the female header. For this project you only need three sockets to connect to the Pi. Before soldering cut the longer header into three sockets with an exactoknife. The pins of the header should be soldered facing the front of the PCB.
 
@@ -172,18 +171,18 @@ Back
 
 An example of the final product is shown below:
 
-Front
+### Front
 
-![pcb_front_soldered](Images/pcb_front_soldered.jpg)
+<img src="Images/pcb_front_soldered_cropped.jpg" width="750" height="750" align="center">
 
-Back
+### Back
 
-![pcb back soldered](Images/pcb_back_soldered.jpg)
+<img src="Images/pcb_back_soldered.jpg" width="600" height="1000" align="center">
 
 
-With Sensor Connected
+### With Sensor Connected
 
-![pcb_front_soldered](Images/pcb_soldered_sensor.jpg)
+<img src="Images/pcb_soldered_sensor_cropped.jpg" width="800" height="550" align="center">
 
 ## Case
 
