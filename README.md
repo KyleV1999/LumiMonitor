@@ -55,9 +55,9 @@ Thse are the parts needed to complete the project. Displayed below are links and
 | Total Cost | $232.13 |
 | Total Tax & Shipping | $58.25 | 
 
-**Below is an image that contains all the major parts for the project; The Grove PIR Motion Sensor, Raspberry Pi 3B+ and Grove Sockets** 
+**Below is an image that contains all the major parts for the project; The Grove PIR Motion Sensor, Raspberry Pi 3B+ and Grove Sockets**
 
-![Items purchased](items_purchased.jpg)
+<img src="Images/items_purchased.jpg" width="750" height="400" align="center">
 
 
 ## Time Commitment
@@ -87,25 +87,29 @@ Once your Raspberry Pi has been configured with an operating system, remote desk
 
 To setup SSH, begin by opening the terminal by pressing CTRL+ALT+T on the keyboard. Next, use the command ```sudo raspi-config```. An interface similar to as show below should appear. Using the up and down arrow keys select interfacing options and press ENTER.
 
-![SSH1](Images/SSH1.JPG)
+<img src="Images/SSH1.JPG" width="600" height="400" align="center">
+
 
 Next, use the up and down arrow keys to select SSH and hit enter.
 
-![SSH2](Images/SSH2.JPG)
+<img src="Images/SSH2.JPG" width="600" height="400" align="center">
 
 Finally, using the right and left arrow keys select <Yes>. SSH has now been successfully enabled.
 
-![SSH3](Images/SSH3.JPG)
-![SSH4](Images/SSH4.JPG)
+<img src="Images/SSH3.JPG" width="600" height="400" align="center">
+
+<img src="Images/SSH4.JPG" width="600" height="400" align="center">
 
 Now, plug in one end of the ethernet cable into the Raspberry Pi and the other end into the adapter. Plug the USB end of the adapter into a PC. Next use the ```ifconfig``` command to retrieve the IPv4 address of the Pi's ethernet interface. In my case it is 169.254.123.117.
 
-![IPV4](Images/ifconfig.JPG)
+<img src="Images/ifconfig.JPG" align="center">
 
 Now use and SSH client like [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html). Enter the IPv4 address then press open. You should be prompted with a login. Enter your Pi's username and password. Finally, you should be able to control the terminal of your Raspberry Pi through SSH.
 
-![PuTTY1](Images/PuTTY1.JPG)
-![PuTTY2](Images/PuTTY2.JPG)
+<img src="Images/PuTTY1.JPG" align="center">
+
+
+<img src="Images/PuTTY2.JPG" width="720" height="400" align="center">
 
 ### Setting Up Remote Desktop
 To enable remote desktop to connect and control the Raspberry Pi with a graphical user interface, open up the terminal on the Pi and enter the following commands:
