@@ -3,7 +3,7 @@
 ## Table of Contents
 * [Introduction](https://github.com/KyleV1999/LumiMonitor#Introduction)
 * [Budget](https://github.com/KyleV1999/LumiMonitor#Budget)
-* [Time Commitment](https://github.com/KyleV1999/LumiMonitor#Time-Comitment)
+* [Time Commitment](https://github.com/KyleV1999/LumiMonitor#Time-Commitment)
 * [Setting Up Your Platform](https://github.com/KyleV1999/LumiMonitor#Setting-Up-Your-Development-Platform)
 * [Mechanical Assembly](https://github.com/KyleV1999/LumiMonitor#Mechanical-Assembly)
 * [PCB Soldering](https://github.com/KyleV1999/LumiMonitor#PCB-Soldering)
@@ -28,7 +28,7 @@ Before you begin some skills you will need duing the build of this project inclu
 ## Budget
 Thse are the parts needed to complete the project. Displayed below are links and price breakdown for each component.
 
-**Parts for Lumi Monitor**
+### Parts for Lumi Monitor
 
 | Part   | Source  | Part Number | # of Units | Price Per Unit (CAD)  | Taxes & Shipping (CAD) | Subtotal  | Link |
 | ------ | ------- | ----------- | --------------- | --------------- | ---------------------- | --------- | ---- |
@@ -47,7 +47,7 @@ Thse are the parts needed to complete the project. Displayed below are links and
 | Total Cost | $232.13 |
 | Total Tax & Shipping | $58.25 | 
 
-**Below is an image that contains all the major parts for the project; The Grove PIR Motion Sensor, Raspberry Pi 3B+ and Grove Sockets**
+**Below is an image that contains all the major parts for the project; The Grove PIR Motion Sensor, Raspberry Pi 3B+ and Grove Sockets.**
 
 <img src="Images/items_purchased.jpg" width="750" height="400" align="center">
 
@@ -86,7 +86,7 @@ Next, use the up and down arrow keys to select SSH and hit enter.
 
 <img src="Images/SSH2.JPG" width="600" height="400" align="center">
 
-Finally, using the right and left arrow keys select <Yes>. SSH has now been successfully enabled.
+Finally, using the right and left arrow keys select Yes. SSH has now been successfully enabled.
 
 <img src="Images/SSH3.JPG" width="600" height="400" align="center">
 
@@ -110,7 +110,7 @@ To enable remote desktop to connect and control the Raspberry Pi with a graphica
 
 ```sudo apt-get install xrdp```
 
-After that make sure that your Raspberry Pi is connected to a PC with the ethernet cable and USB to ethernet adapter. Now open "Remote Desktop" on the PC can put in the IPv4 address found earlier and click connect. Enter your Pi's login information and finally, you should be in the remote desktop environment.
+After that make sure that your Raspberry Pi is connected to a PC with the ethernet cable and USB to ethernet adapter. Now open "Remote Desktop" on the PC and put in the IPv4 address found earlier and click connect. Enter your Pi's login information and finally, you should be in the remote desktop environment.
 
 <img src="Images/RD1.PNG" align="center">
 
@@ -120,7 +120,7 @@ After that make sure that your Raspberry Pi is connected to a PC with the ethern
 
 
 ## Mechanical Assembly
-Now that your development platform has been setup, you should have your PCB made. Provided below are two fritzing files:
+Now that your development platform has been setup, you should have your PCB made. Provided below are two [fritzing](https://fritzing.org/home/) files:
 
 [Fritzing File With Development Platform](Electronics/LumiMonitor_MotionSensor.fzz)
 
@@ -134,7 +134,7 @@ Before you start soldering the PCB, it would be a good idea to test out that you
 
 <img src="Images/LumiMonitor_MotionSensor_schem.jpg" width="720" height="500" align="center">
 
-One thing to keep in mind when breadboarding is that the pins on socket for the motion sensor are too close together to fit on the breadboard. To get around this, stick wires directly into the header of the sensor's wire, then place each wire individually onto the breadboard. 
+One thing to keep in mind when breadboarding is that the pins on the Grove socket, for the motion sensor, are too close together to fit on the breadboard. To get around this, stick wires directly into the header of the sensor's wire, then place each wire individually onto the breadboard. 
 
 * Pin 2 (5V) of the Raspberry Pi should be connected to the positive side of the breadboard.
 * Pin 6 (GND) of the Raspberry Pi should be connected to the negative side of the breadboard.
@@ -149,21 +149,22 @@ One thing to keep in mind when breadboarding is that the pins on socket for the 
 
 Now test to see if the motion sensor is working. [Upload this code to your Pi](Software/motion.py). This is a Python script which will detect HIGH (if motion is detected) and LOW (if no motion is detected). To run the code, open the terminal and make sure that you are in the same directory as your code. Use the command ```python motion.py``` to run the script. If motion is detected, "Motion detected" should be printed out on the screen. If no motion is detected then "No motion detected" is printed. When the sensor detects motion it will stay in a HIGH state for 1 second.
 
+<img src="Images/ScreenCapture2.JPG" width="720" height="400" align="center">
+
+
 ## PCB Soldering
 
-If this is your first time soldering, I would recommend that you watch this tutorial before you begin: [Beginner how to Solder](https://www.youtube.com/watch?v=oqV2xU1fee8). Below is a PCB Diagram from fitzing along with and image of the PCB before anything is soldered.
+If this is your first time soldering, I would recommend that you watch this tutorial before you begin: [Beginner how to Solder](https://www.youtube.com/watch?v=oqV2xU1fee8). Below is a PCB Diagram from fitzing along with images of the front and back sides of the PCB before anything is soldered.
 
 <img src="Images/LumiMonitor_MotionSensor_pcb2.jpg" align="center">
 
-**Front of PCB**
-
+### Front of PCB
 <img src="Images/pcb_front_cropped.jpg" width="720" height="480" align="center">
 
-**Back of PCB**
-
+### Back of PCB
 <img src="Images/pcb_back_cropped.jpg" width="720" height="480" align="center">
 
-1. The first step in soldering the PCB would be to solder the female header. For this project you only need three sockets to connect to the Pi. Before soldering cut the longer header into three sockets with an exactoknife. The pins of the header should be soldered facing the front of the PCB.
+1. The first step in soldering the PCB would be to solder the female header. For this project you only need three sockets to connect to the Pi. Before soldering cut the longer header into three sockets with an exacto knife. The pins of the header should be soldered facing the front of the PCB.
 
 1. Next, Solder the Grove socket to the PCB. The pins of the socket should be facing the bottom on the PCB.
 
@@ -195,12 +196,13 @@ Two slits were made, which is used to slide in the PCB and sensor to keep them i
 
 ## Power Up
 
-Before you enclose your PCB and sensor into the case, It would be a good idea to power it up to see if everything was successful. It is easier to do this outside of the case to make adjustments if needed. Plug the headers from the PCB intro their correct pins on the Raspberry Pi and and plug the sensor into it's socket. Power up the Raspberry Pi and connect to it via SSH. Run the same code from before with the command ```python motion.py```. If everything is working correctly then "Motion Detected" will be displayed when motion is detected. **Warning do not leave the powered up project unattended just in case something goes wrong!.** Finally, Once everything has been test and is working, enclose you project in the case.
-
-
+Before you enclose your PCB and sensor into the case, It would be a good idea to power it up to see if your PCB soldering was successful. It is easier to do this outside of the case to make adjustments if needed. Plug the VCC, GND and D1 wires from the feamale socket on the PCB intro their correct pins on the Raspberry Pi and and plug the sensor into it's socket. Power up the Raspberry Pi and connect to it via SSH. Run the same code from before with the command ```python motion.py```. If everything is working correctly then "Motion Detected" will be displayed when motion is detected. **Warning do not leave the powered up project unattended just in case something goes wrong!** Finally, Once everything has been testedd and is working correctly, enclose you project in the case.
 
 ## Production Testing
 When testing in a production environment, a PCB should be made for testing the sensor. This is because the dedicated socket for my sensor will not fit on a breadboard and it's simpiler and quicker to just plug the sensor into the socket to test it. Also a dedicated Raspbarry Pi with the all the software installed should be on hand. This is so any PCB or sensor can be swiftly connected, and tested in a matter of a few minutes.   
+
+[Back To Top](https://github.com/KyleV1999/LumiMonitor#pir-motion-sensor-build-instructions-for-the-lumimonitor)
+
 
 
 
