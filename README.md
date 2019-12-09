@@ -18,6 +18,11 @@ This is the build instructions for building the PIR Motion sensor as part of the
 
 ![Final Product](Images/box_sensormount.jpg)
 
+### System Diagram
+
+<img src="Images/System Diagram.jpg" align="center">
+
+
 Before you begin some skills you will need duing the build of this project include:
 * Basic electrical and circuit knowledge
 * Basic programming knowledge
