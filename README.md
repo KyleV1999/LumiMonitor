@@ -49,8 +49,8 @@ Thse are the parts needed to complete the project. Displayed below are links and
 | Clear Acrylic Glass 3mm | Amazon | | 1 | $17.09 | $0.00 | $17.09 | https://amzn.to/2XWM1OX |
 | M2.5 Screws | Digikey | | 4 | $0.15 | $0.00 | $0.60 | https://bit.ly/2Oy8TS9 |
 | Lead Free Solder | Amazon | 2-CA-X | 1 | $15.99 | $4.32 | $20.31 | https://amzn.to/37JXLJj |
-| Total Cost | $232.13 |
-| Total Tax & Shipping | $58.25 | 
+| **Total Cost** | **$232.13** |
+| **Total Tax & Shipping** | **$58.25** | 
 
 **Below is an image that contains all the major parts for the project; The Grove PIR Motion Sensor, Raspberry Pi 3B+ and Grove Sockets.**
 
