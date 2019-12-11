@@ -52,6 +52,10 @@ Thse are the parts needed to complete the project. Displayed below are links and
 | **Total Cost** | **$232.13** |
 | **Total Tax & Shipping** | **$58.25** | 
 
+It would also be a good idea to have your PCB made and your case laser cut before you start your project. Use this [fritzing file](Electronics/LumiMonitor_MotionSensor2.fzz) to generate your gerber file and this [corel draw](Mechanical/KylePi2CaseX6.cdr) file to have your case cut.
+
+Here is the link to [seeedstudio.com/](https://www.seeedstudio.com/fusion_pcb.html) where you can upload your gerber file  to have your PCB made. It is $3.92USD ($5.19 CAD) for 10 PCBs.
+
 **Below is an image that contains all the major parts for the project; The Grove PIR Motion Sensor, Raspberry Pi 3B+ and Grove Sockets.**
 
 <img src="Images/items_purchased.jpg" width="750" height="400" align="center">
